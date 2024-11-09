@@ -1,0 +1,208 @@
+body{
+    background-color: whitesmoke;
+    color: rgb(11, 21, 36);
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(20,90px);
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('img/BG_CajuínaSãoGeraldo.png');
+    background-repeat: no-repeat;
+}
+
+header {
+    position:fixed;
+}
+
+header{
+    background-color: #10AA22;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    
+}
+
+.logotp img{
+    
+    width: 140px;
+    margin-left: 50px;
+}
+
+menu{
+    background-color: #280B35;
+    grid-column: 1/13;
+    grid-row: 2/3;
+    height: 57px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+    grid-template-rows: repeat(2,29px);
+
+}
+
+.logbox{
+    width: 175px;
+    margin-left: 80%;
+    height: 70px;
+    margin-top: 9px;
+    display: flex;
+}
+
+.logbox img{
+    border-radius: 50px;
+    grid-column: 13/13;
+}
+
+.logbox a{
+    font-size: 25px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #280B35;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+menu li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    margin-right: 10px;;
+}
+
+menu li{
+    grid-column:6/11;
+    margin-top: 18px;
+    display: flex;
+    font-size: 17px;
+    transition: 1s;
+
+}
+
+menu li a:hover{
+    color: #2CDD61;
+}
+.touggle{
+    width: 65px;
+    height: 30px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    grid-column: 15/15;
+}
+.toggle-checkbox {
+    display: none;
+  }
+  
+.touggleball{
+   width: 30px;
+   height: 29px;
+   margin: 1px;
+   margin-left: 32px;
+   background-color: greenyellow;
+   border-radius: 50%;
+   transition: 1s;
+   cursor: pointer;
+}
+
+.touggleball:hover{
+    background-color: #280B35;
+    margin-left: 5px;
+}
+
+
+.banner {
+    grid-column: 1/13;
+    grid-row: 3/6;
+    height: 244px;
+    margin-top: -35px;
+    background-color: #167921;
+    
+}
+.banner img {
+    grid-column: 1/13;
+}
+
+.areadecompras{
+        grid-row: 6/21;
+        grid-column: 1/16;
+        margin: 10px;
+        margin-top: -5px;
+        border-radius: 20px;
+        background-color: #F8F8F8;
+        
+}
+
+.areadecompras h1{
+    background-color: #02C581;
+    width: 300px;
+    height: 45px;
+    border-radius: 0px 20px 00px 20px;
+    margin-left: 20px;
+    
+}
+
+.areadecompras a{
+    text-decoration: none;
+    color: #2e103b;
+}
+
+.container{
+    display: flex;
+    margin: 20px;
+    margin-left:135px;
+}
+
+.caixacompra{
+   width: 350px;
+   height: 500px;
+   background-color: #EEE7E7;
+   margin-right: 50px;
+   margin: 20px;
+   border-radius: 20px;
+   display: grid;
+   grid-template-rows: repeat(10,50px);
+}
+
+.caixacompra button{
+
+    background-color: #2CDD61;
+    border: none;
+    height: 70px;
+    width: 180px;
+    font-size: 17px;
+    border-radius: 50px;
+    font-weight: bold;
+    grid-row: 9/9;
+    margin-left: 83px;
+    margin-right: 40px;
+    transition: 1s;
+}
+
+.caixacompra button:hover{
+    background-color: rgb(13, 87, 31);
+    color: rgb(12, 255, 105);
+
+}
+
+.caixacompra h3{
+    text-align: center;
+    color:#038b47;
+    grid-row: 8/8;
+}
+
+.caixacompra picture{
+    grid-row: 2/7;
+    background-color: rgb(197, 197, 197);
+    
+}
+
+.caixacompra picture img{
+    margin-left: 113px;
+    margin-top: 15px;
+    transition: 1s;
+}
+
+.caixacompra picture img:hover{
+    transform: scale(1.1);
+}

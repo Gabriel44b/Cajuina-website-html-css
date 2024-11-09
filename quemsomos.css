@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(18, 56, 20);
+    color: rgb(14, 206, 132);
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(15,90px);
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+}
+
+header {
+    position:fixed;
+}
+
+header{
+    background-color: #10AA22;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    
+}
+
+.logotp img{
+    
+    width: 140px;
+    margin-left: 50px;
+}
+
+menu{
+    background-color: #280B35;
+    grid-column: 1/13;
+    grid-row: 2/3;
+    height: 57px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+    grid-template-rows: repeat(2,29px);
+
+}
+
+.logbox{
+    width: 175px;
+    margin-left: 80%;
+    height: 70px;
+    margin-top: 9px;
+    display: flex;
+}
+
+.logbox img{
+    border-radius: 50px;
+    grid-column: 13/13;
+}
+
+.logbox a{
+    font-size: 25px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #280B35;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+menu li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    margin-right: 10px;;
+}
+
+menu li{
+    grid-column:6/11;
+    margin-top: 18px;
+    display: flex;
+    font-size: 17px;
+    transition: 1s;
+
+}
+
+menu li a:hover{
+    color: #2CDD61;
+}
+.touggle{
+    width: 65px;
+    height: 30px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    grid-column: 15/15;
+}
+.toggle-checkbox {
+    display: none;
+  }
+  
+.touggleball{
+   width: 30px;
+   height: 29px;
+   margin: 1px;
+   margin-left: 32px;
+   background-color: greenyellow;
+   border-radius: 50%;
+   transition: 1s;
+   cursor: pointer;
+}
+
+.touggleball:hover{
+    background-color: #280B35;
+    margin-left: 5px;
+}
+
+
+.cajuina1 {
+    background-color: #2CDD61;
+    margin-top: 148px;
+    grid-column: 1/6;
+    grid-row:1/8 ;
+}
+.cajuina2 {
+    background-color: rgb(3, 29, 19);
+    margin-top: 148px;
+    grid-column: 6/16;
+    grid-row: 1/8;
+}
+
+.cajuinabanner {
+  background-color: #280B35;
+  grid-column: 1/16;
+  grid-row: 8/11;
+}
+
+.cajuina4 {
+    background-color: rgb(12, 48, 27);
+    margin-top: 30px;
+    grid-row: 11/16;
+    grid-column: 1/8;
+}
+
+.cajuina4 img{
+    width: 800px;
+    height: 420px;
+}
+
+.cajuina5 {
+    background-color: rgb(12, 48, 27);
+    margin-top: 30px;
+    grid-row:11/16 ;
+    grid-column: 8/16;
+}
+
+
+p{
+    width: 900px;
+    padding: 80px;
+    font-size: 30px;
+}
+
+.cajuina5 p{
+    width: 800px;
+    margin-left: -230px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+

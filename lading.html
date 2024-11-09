@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Animação de Piscar</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background-color:rgb(11, 94, 29);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image {
+  opacity: 1;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+</head>
+<body>
+  <img src="img/cajuina-sao-geraldo-logo.png" class="image" alt="Imagem Piscando" onclick="redirect()">
+  <script>
+  const imagem = document.getElementById("imagemPiscando");
+    
+  setTimeout(() => {
+    window.location.href = "index.html"; }, 1700); 
+</script>
+</body>
+</html>
